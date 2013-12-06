@@ -1,0 +1,2 @@
+The mobile version of Conference Navigator for EC-TEL 2013, 8th European Conference on Technology Enhanced Learning:(http://www.ec-tel.eu/). The app allows to view conference schedule, presented papers, workshops, tutorials, and keynotes. You can mark and schedule papers you liked and interested to attend. The schedule is being synchronized with the Web version of the Conference Navigator (http://halley.exp.sis.pitt.edu/cn3/top.php?conferenceID=124). 
+Credits: Conference Navigator project, Yijin Wu, Shenghua Zhang & PAWS Lab
