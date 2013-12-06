@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="aied.com"
+      android:versionCode="1"
+      android:versionName="1.2">
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+   <uses-permission android:name="android.permission.INTERNET" />
+	<application android:icon="@drawable/logo" android:label="@string/app_name">
+		<activity android:name="aied.com.iConference2012" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="aied.com.UpdateOption"></activity>
+		<activity android:name="aied.com.MainInterface"></activity>
+		<activity android:name="aied.com.ConferenceInfo"></activity>
+		<activity android:name="aied.com.KeyNote"></activity>
+		<activity android:name="aied.com.KeynoteDetail"></activity>
+		<activity android:name="aied.com.ProgramByDay"></activity>
+		<activity android:name="aied.com.PaperInSession"></activity>
+		<activity android:name="aied.com.UserDetail"></activity>
+		<activity android:name="aied.com.PaperInfo"></activity>
+		<activity android:name="aied.com.PaperAttending"></activity>
+		<activity android:name="aied.com.PaperSimilar"></activity>
+		<activity android:name="aied.com.PaperDetail"></activity>
+		<activity android:name="aied.com.MyScheduledPapers"></activity>
+		<activity android:name="aied.com.MyStaredPapers"></activity>
+		<activity android:name="aied.com.MyRecommendedPapers"></activity>
+		<activity android:name="aied.com.Signin"></activity>
+		<activity android:name="aied.com.Signup"></activity>
+		<activity android:name="aied.com.Workshops"></activity>
+		<activity android:name="aied.com.WorkshopDetail"></activity>
+		<activity android:name="aied.com.Posters"></activity>
+		<activity android:name="aied.com.PosterDetail"></activity>
+		<activity android:name="aied.com.ProceedingsByAuthor"></activity>
+		<activity android:name="aied.com.ProceedingsByName"></activity>	
+		<activity android:name="aied.com.ProceedingsByType"></activity>
+		<activity android:name="aied.com.Proceedings"></activity>	
+	</application>
+	<uses-sdk android:minSdkVersion="4" />
+</manifest>

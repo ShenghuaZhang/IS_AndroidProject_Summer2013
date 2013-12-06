@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="iknow.com"
+      android:versionCode="1"
+      android:versionName="1.0">
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+   <uses-permission android:name="android.permission.INTERNET" />
+	<application android:icon="@drawable/logo" android:label="@string/app_name">
+		<activity android:name="iknow.com.iConference2012" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="iknow.com.UpdateOption"></activity>
+		<activity android:name="iknow.com.MainInterface"></activity>
+		<activity android:name="iknow.com.ConferenceInfo"></activity>
+		<activity android:name="iknow.com.KeyNote"></activity>
+		<activity android:name="iknow.com.KeynoteDetail"></activity>
+		<activity android:name="iknow.com.ProgramByDay"></activity>
+		<activity android:name="iknow.com.PaperInSession"></activity>
+		<activity android:name="iknow.com.UserDetail"></activity>
+		<activity android:name="iknow.com.PaperInfo"></activity>
+		<activity android:name="iknow.com.PaperAttending"></activity>
+		<activity android:name="iknow.com.PaperSimilar"></activity>
+		<activity android:name="iknow.com.PaperDetail"></activity>
+		<activity android:name="iknow.com.MyScheduledPapers"></activity>
+		<activity android:name="iknow.com.MyStaredPapers"></activity>
+		<activity android:name="iknow.com.MyRecommendedPapers"></activity>
+		<activity android:name="iknow.com.Signin"></activity>
+		<activity android:name="iknow.com.Signup"></activity>
+		<activity android:name="iknow.com.Workshops"></activity>
+		<activity android:name="iknow.com.WorkshopDetail"></activity>
+		<activity android:name="iknow.com.Posters"></activity>
+		<activity android:name="iknow.com.PosterDetail"></activity>
+		<activity android:name="iknow.com.ProceedingsByAuthor"></activity>
+		<activity android:name="iknow.com.ProceedingsByName"></activity>	
+		<activity android:name="iknow.com.ProceedingsByType"></activity>
+		<activity android:name="iknow.com.Proceedings"></activity>	
+	</application>
+	<uses-sdk android:minSdkVersion="4" />
+</manifest>

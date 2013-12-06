@@ -1,0 +1,92 @@
+<RelativeLayout android:id="@+id/LinearLayout10"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:background="@drawable/back">
+	<FrameLayout android:id="@+id/FrameLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/rectshape">
+	<TextView android:id="@+id/TextView01"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:gravity="center" 
+		android:textSize="10pt" 
+		android:textStyle="bold"
+		android:text="Update database" 
+		android:textColor="@drawable/White">
+	</TextView>
+	<ImageButton android:id="@+id/ImageButton01"
+		android:src="@drawable/update"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right">
+	</ImageButton>
+	</FrameLayout>
+	<RelativeLayout android:id="@+id/RelativeLayout11"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="@drawable/roundshape"
+		android:paddingLeft="5pt"
+		android:paddingRight="5pt">
+	<TextView android:id="@+id/show"
+	android:text="Task Log"
+	android:textColor="@drawable/White"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:textSize="8pt">
+	</TextView>
+	<View        android:id="@+id/view1"
+	android:layout_height="2dip" 
+	android:layout_width="fill_parent"       
+	android:background="#FF909090"
+	android:layout_below="@id/show" />
+	<TextView android:id="@+id/sessionupdate"
+	android:text="Ready to update session information"
+	android:drawableLeft="@drawable/database"
+	android:textColor="@drawable/White"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/view1">
+	</TextView>
+	<TextView android:id="@+id/presentationupdate"
+	android:text="Ready to update presentation information"
+	android:drawableLeft="@drawable/database"
+	android:textColor="@drawable/White"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/sessionupdate">
+	</TextView>
+	<TextView android:id="@+id/paperupdate"
+	android:text="Ready to update paper information"
+	android:drawableLeft="@drawable/database"
+	android:textColor="@drawable/White"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/presentationupdate">
+	</TextView>
+	<TextView android:id="@+id/papersync"
+	android:text="Ready to sync personal schedule and recommendation"
+	android:drawableLeft="@drawable/database"
+	android:textColor="@drawable/White"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/paperupdate">
+	</TextView>
+	<View        android:id="@+id/view2"
+	android:layout_height="2dip" 
+	android:layout_width="fill_parent"      
+	android:background="#FF909090" 
+	android:layout_below="@id/papersync"/>
+	<TextView android:id="@+id/success"
+	android:textColor="@drawable/White"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/view2"
+	android:textSize="8pt">
+	</TextView>
+	</RelativeLayout>
+</RelativeLayout>

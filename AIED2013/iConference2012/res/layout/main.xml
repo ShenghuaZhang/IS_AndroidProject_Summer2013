@@ -1,0 +1,16 @@
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/back" android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<ImageView android:id="@+id/Logo"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/logo_in" android:layout_centerInParent="true" />
+	<TextView android:id="@+id/status" 
+		android:layout_alignParentTop="true" 
+		android:layout_below="@+id/date" android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" android:gravity="center" 
+		android:text="Initializing Application.Please wait..." 
+		android:textColor="@drawable/White" 
+		android:visibility="gone">
+	</TextView>
+</RelativeLayout>

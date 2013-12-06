@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ectel2013.com"
+      android:versionCode="4"
+      android:versionName="1.0.4">
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+   <uses-permission android:name="android.permission.INTERNET" />
+	<application android:icon="@drawable/logo" android:label="@string/app_name">
+		<activity android:name="ectel2013.com.iConference2012" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="ectel2013.com.BrowserActivity"></activity>
+		<activity android:name="aied.com"></activity>
+		<activity android:name="ectel2013.com.UpdateOption"></activity>
+		<activity android:name="ectel2013.com.MainInterface"></activity>
+		<activity android:name="ectel2013.com.ConferenceInfo"></activity>
+		<activity android:name="ectel2013.com.KeyNote"></activity>
+		<activity android:name="ectel2013.com.KeynoteDetail"></activity>
+		<activity android:name="ectel2013.com.ProgramByDay"></activity>
+		<activity android:name="ectel2013.com.PaperInSession"></activity>
+		<activity android:name="ectel2013.com.UserDetail"></activity>
+		<activity android:name="ectel2013.com.PaperInfo"></activity>
+		<activity android:name="ectel2013.com.PaperAttending"></activity>
+		<activity android:name="ectel2013.com.PaperSimilar"></activity>
+		<activity android:name="ectel2013.com.PaperDetail"></activity>
+		<activity android:name="ectel2013.com.MyScheduledPapers"></activity>
+		<activity android:name="ectel2013.com.MyStaredPapers"></activity>
+		<activity android:name="ectel2013.com.MyRecommendedPapers"></activity>
+		<activity android:name="ectel2013.com.Signin"></activity>
+		<activity android:name="ectel2013.com.Signup"></activity>
+		<activity android:name="ectel2013.com.Workshops"></activity>
+		<activity android:name="ectel2013.com.WorkshopDetail"></activity>
+		<activity android:name="ectel2013.com.Posters"></activity>
+		<activity android:name="ectel2013.com.PosterDetail"></activity>
+		<activity android:name="ectel2013.com.ProceedingsByAuthor"></activity>
+		<activity android:name="ectel2013.com.ProceedingsByName"></activity>	
+		<activity android:name="ectel2013.com.ProceedingsByType"></activity>
+		<activity android:name="ectel2013.com.Proceedings"></activity>	
+	</application>
+	<uses-sdk android:minSdkVersion="4" />
+</manifest>
